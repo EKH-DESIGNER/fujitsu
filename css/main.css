@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu-item {
+    border-bottom: 4px solid transparent;
+}
+
+.menu-item:hover {
+    border-bottom-color: #ddd;
+}
+
+
+.mobile-circle-icon {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #9a9a9a;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 22px;
+    font-size: 12px;
+    color: #666;
+}
