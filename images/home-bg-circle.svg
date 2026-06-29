@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 777">
+  <defs>
+    <radialGradient id="home-bg-circle-gradation-1" cx="1093.573" cy="472.02" fx="1093.573" fy="472.02" r="289.162" gradientTransform="translate(987.838 -968.79) rotate(45) scale(1 2)" gradientUnits="userSpaceOnUse">
+      <stop offset=".25" stop-color="#d80084"/>
+      <stop offset=".377" stop-color="#d80084" stop-opacity=".714"/>
+      <stop offset=".7" stop-color="#d80084" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="home-bg-circle-gradation-0" x1="1017.397" y1="395.997" x2="1235.827" y2="614.427" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".333" stop-color="#fcfcfc"/>
+      <stop offset=".571" stop-color="#f2f2f2"/>
+      <stop offset=".78" stop-color="#e3e3e3"/>
+      <stop offset=".85" stop-color="#dcdcdc"/>
+    </linearGradient>
+    <linearGradient id="home-bg-circle-gradation-2" x1="1183.039" y1="560.649" x2="1365.166" y2="777.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dcdcdc" stop-opacity=".75"/>
+      <stop offset=".081" stop-color="#dcdcdc" stop-opacity=".733"/>
+      <stop offset=".159" stop-color="#dcdcdc" stop-opacity=".68"/>
+      <stop offset=".235" stop-color="#dcdcdc" stop-opacity=".591"/>
+      <stop offset=".312" stop-color="#dcdcdc" stop-opacity=".467"/>
+      <stop offset=".387" stop-color="#dcdcdc" stop-opacity=".307"/>
+      <stop offset=".461" stop-color="#dcdcdc" stop-opacity=".114"/>
+      <stop offset=".5" stop-color="#dcdcdc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M821.146,777h18.126c53.35-281.771,258.798-508.984,526.728-591.154v-18.805c-277.808,83.058-490.934,318.211-544.854,609.959Z" fill="url(#home-bg-circle-gradation-1)"/>
+  <path d="M829.492,777h243.762c42.568-153.937,151.032-280.094,292.746-345.493v-255.815c-273.26,82.654-482.846,314.153-536.508,601.308Z" fill="url(#home-bg-circle-gradation-0)"/>
+  <path d="M1073.254,777h292.746v-345.493c-141.714,65.399-250.178,191.556-292.746,345.493Z" fill="url(#home-bg-circle-gradation-2)"/>
+  <g>
+    <path d="M1366,175.692c-273.26,82.654-482.846,314.153-536.508,601.308" fill="none" stroke="#6d6e70" stroke-miterlimit="10" stroke-width=".5"/>
+    <path d="M1073.254,777c42.568-153.937,151.032-280.094,292.746-345.493" fill="none" stroke="#6d6e70" stroke-miterlimit="10" stroke-width=".5"/>
+  </g>
+</svg>

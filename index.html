@@ -12,50 +12,57 @@
 </head>
 
 <body>
-    <header class="bg-white">
-    <div class="container-fluid px-3 px-lg-5">
-        <div class="py-0">
-            <!-- هدر مخصوص موبایل (این تیکه کمه که اضافه شد) -->
-            <div class="d-flex d-lg-none align-items-center justify-content-between py-0">
-                <a href="#"><img src="images/logo-fujitsu.svg" alt="Fujitsu" style="width: 120px;"></a>
-                <!-- دکمه همبرگری که آیدی منوی تو رو صدا میزنه -->
-                <button class="btn border-0 shadow-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-                    <i class="bi bi-list fs-1"></i>
-                </button>
-            </div>
+    <header class="bg-white sticky-header" id="siteHeader">
+        <div class="container-fluid px-3 px-lg-5">
+            <div class="py-0">
+                <!-- هدر مخصوص موبایل (این تیکه کمه که اضافه شد) -->
+                <div class="d-flex d-lg-none align-items-center justify-content-between py-0">
+                    <a href="#"><img src="images/logo-fujitsu.svg" alt="Fujitsu" style="width: 120px;"></a>
+                    <!-- دکمه همبرگری که آیدی منوی تو رو صدا میزنه -->
+                    <button class="btn border-0 shadow-none p-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#mobileMenu">
+                        <i class="bi bi-list fs-1"></i>
+                    </button>
+                </div>
 
-            <!-- هدر دسکتاپ (کد قبلی خودت بدون تغییر) -->
-            <div class="d-none d-lg-flex align-items-center justify-content-between py-0">
-                <a href="#" class="d-flex">
-                    <img src="images/logo-fujitsu.svg" alt="Fujitsu" style="width: 160px;">
-                </a>
-                <div class="d-flex align-items-center gap-4">
-                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">About us <i class="bi bi-chevron-down"></i></a>
-                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">News</a>
-                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Investor Relations</a>
-                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Careers</a>
-                    <span style="width:1px;height:18px;background:#ddd;"></span>
-                    <a href="#" class="text-dark fs-3 d-flex align-items-center"><i class="bi bi-globe2 lh-1"></i></a>
-                    <div class="bg-light rounded-2 px-3 py-1 d-flex align-items-center gap-2" style="width: 150px;">
-                        <input type="text" class="form-control border-0 bg-transparent p-0 shadow-none" placeholder="Enter search">
-                        <i class="bi bi-search lh-1"></i>
+                <!-- هدر دسکتاپ (کد قبلی خودت بدون تغییر) -->
+                <div class="d-none d-lg-flex align-items-center justify-content-between py-0">
+                    <a href="#" class="d-flex">
+                        <img src="images/logo-fujitsu.svg" alt="Fujitsu" style="width: 160px;">
+                    </a>
+                    <div class="d-flex align-items-center gap-4">
+                        <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">About us <i
+                                class="bi bi-chevron-down"></i></a>
+                        <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">News</a>
+                        <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Investor Relations</a>
+                        <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Careers</a>
+                        <span style="width:1px;height:18px;background:#ddd;"></span>
+                        <a href="#" class="text-dark fs-3 d-flex align-items-center"><i
+                                class="bi bi-globe2 lh-1"></i></a>
+                        <div class="bg-light rounded-2 px-3 py-1 d-flex align-items-center gap-2" style="width: 150px;">
+                            <input type="text" class="form-control border-0 bg-transparent p-0 shadow-none"
+                                placeholder="Enter search">
+                            <i class="bi bi-search lh-1"></i>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- ردیف دوم دسکتاپ (کد قبلی خودت بدون تغییر) -->
-            <div class="d-none d-lg-flex align-items-center justify-content-end gap-4 mt-0 pb-3">
-                <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Industries <i class="bi bi-chevron-down"></i></a>
-                <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Services <i class="bi bi-chevron-down"></i></a>
-                <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Insight</a>
-                <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Uvance</a>
-                <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Uvance Wayfinders</a>
-                <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Technology <i class="bi bi-chevron-down"></i></a>
-                <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Sustainability</a>
+                <!-- ردیف دوم دسکتاپ (کد قبلی خودت بدون تغییر) -->
+                <div class="d-none d-lg-flex align-items-center justify-content-end gap-4 mt-0 pb-3">
+                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Industries <i
+                            class="bi bi-chevron-down"></i></a>
+                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Services <i
+                            class="bi bi-chevron-down"></i></a>
+                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Insight</a>
+                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Uvance</a>
+                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Uvance Wayfinders</a>
+                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Technology <i
+                            class="bi bi-chevron-down"></i></a>
+                    <a href="#" class="text-dark text-decoration-none fw-semibold menu-item">Sustainability</a>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
         <div class="offcanvas-header border-bottom">
@@ -172,8 +179,7 @@
             </div>
         </div>
     </div>
-    <section class="position-relative overflow-hidden vh-60 d-flex align-items-center"
-        style="min-height: 500px;">
+    <section class="position-relative overflow-hidden vh-60 d-flex align-items-center" style="min-height: 500px;">
         <!-- ویدیو پس‌زمینه -->
         <video autoplay muted loop playsinline class="position-absolute top-0 start-0 w-100 h-100"
             style="object-fit: cover; z-index: 1;">
@@ -218,6 +224,127 @@
             </div>
         </div>
     </section>
+
+    <section class="featured-insight pt-5">
+        <div class="container">
+            <div class="row">
+                <hr>
+                <div class="col-lg-6 col-xl-6">
+                    <p class="fw-semibold fs-4 mb-4">Featured Insight</p>
+
+                    <h2 class="fs-1 fw-bold lh-sm mb-5">
+                        Rebuilding the foundations of competitiveness and trust for the intelligent systems
+                        era
+                    </h2>
+
+                    <p class="fs-6 text-secondary mb-5 pe-lg-5">
+                        AI agents, physical AI, and quantum computing boost competitiveness while expanding risks such
+                        as credential misuse. This article explores redesigning management foundations to integrate
+                        growth and trust.
+                    </p>
+
+                    <a href="#"
+                        class="btn btn-danger px-4 py-3 fs-5 fw-semibold rounded-0 article-btn d-inline-flex align-items-center gap-3">
+                        <span>Read the full article</span>
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-5 fw-bold">Customer stories</h2>
+
+            <div class="row g-4">
+                <div class="col-12 col-lg-4">
+                    <article>
+                        <img src="images/1.jpg" alt="" class="img-fluid w-100 d-block">
+
+                        <a href="#"
+                            class="d-inline-flex align-items-center gap-2 text-decoration-none text-primary fw-bold mt-3">
+                            <i
+                                class="bi bi-arrow-right-circle story-icon-circle border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"></i>
+                            <span>Nissin</span>
+                        </a>
+
+                        <p class="mt-3 mb-0">
+                            Nissin Corporation executed an SAP conversion without disrupting mission-critical
+                            operations, achieving migration to SAP S/4HANA with BLUEFIELD and Near Zero Downtime.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <article>
+                        <img src="images/2.jpg" alt="" class="img-fluid w-100 d-block">
+
+                        <a href="#"
+                            class="d-inline-flex align-items-center gap-2 text-decoration-none text-primary fw-bold mt-3">
+                            <i
+                                class="bi bi-arrow-right-circle story-icon-circle border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"></i>
+                            <span>Rinicom</span>
+                        </a>
+
+                        <p class="mt-3 mb-0">
+                            Rinicom developed Yellowline AI to improve safety at rail platform edges. Fujitsu supported
+                            its journey to market through strategic consulting, defining the business case, shaping the
+                            go-to-market strategy and designing a scalable deployment model.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <article>
+                        <img src="images/3.jpg" alt="" class="img-fluid w-100 d-block">
+
+                        <a href="#"
+                            class="d-inline-flex align-items-center gap-2 text-decoration-none text-primary fw-bold mt-3">
+                            <i
+                                class="bi bi-arrow-right-circle story-icon-circle border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"></i>
+                            <span>Japanese Food Manufacturer in Singapore</span>
+                        </a>
+
+                        <p class="mt-3 mb-0">
+                            Fujitsu deployed Microsoft Dynamics 365 SCM using a clean core approach, enhancing core
+                            processes and providing ongoing support to optimize daily operations.
+                        </p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <a href="#" class="btn btn-danger rounded-0 fw-bold px-4 py-3">
+                    Read Uvance Customer Stories <i class="bi bi-chevron-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <hr class="my-0">
+
+            <div class="py-5">
+                <p class="mb-4 fw-semibold">Our Purpose</p>
+
+                <h2 class="display-4 mb-5">
+                    Make the world more sustainable by building<br>
+                    trust in society through innovation
+                </h2>
+
+                <a href="#" class="btn btn-danger rounded-0 fw-bold px-4 py-3">
+                    Fujitsu Way <i class="bi bi-chevron-right ms-5"></i>
+                </a>
+            </div>
+
+            <hr class="my-0">
+        </div>
+    </section>
+
+
+
 
 
 
