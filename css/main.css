@@ -83,7 +83,7 @@ img {
 .story-icon-circle {
     width: 28px;
     height: 28px;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 .story-thumb-wrap {
@@ -105,24 +105,24 @@ img {
 
 .ai-banner-btn {
     background: #2400b0;
-    color: #fff;
+    color: white;
     border-radius: 0;
-    padding: 1rem 1.5rem;
+    padding: 16px 24px;
     min-width: 240px;
 }
 
 .ai-banner-btn:hover {
     background: #2400b0;
-    color: #fff;
+    color: white;
 }
 
 .insight-section {
-    background: #fff;
+    background: white;
     color: #111;
 }
 
 .insight-mark {
-    font-size: 3rem;
+    font-size: 48px;
     line-height: 1;
     color: #8a8a8a;
     display: inline-block;
@@ -138,12 +138,12 @@ img {
 }
 
 .insight-icon {
-    width: 2rem;
-    height: 2rem;
+    width: 32px;
+    height: 32px;
     border: 1px solid #777;
     color: #555;
     flex: 0 0 auto;
-    margin-top: .2rem;
+    margin-top: 3px;
 }
 
 .insight-link {
@@ -167,13 +167,13 @@ img {
 
 .newsroom-desc {
     max-width: 900px;
-    font-size: 1.05rem;
+    font-size: 17px;
     line-height: 1.7;
 }
 
 .newsroom-icon {
-    width: 2rem;
-    height: 2rem;
+    width: 32px;
+    height: 32px;
     border: 1px solid rgba(255, 255, 255, .9);
     flex: 0 0 auto;
 }
@@ -191,7 +191,7 @@ img {
 }
 
 .release-date {
-    font-size: 1rem;
+    font-size: 16px;
     color: #222;
     padding-top: 6px;
 }
@@ -207,16 +207,16 @@ img {
 }
 
 .release-icon {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 27px;
+    height: 27px;
     border: 1px solid #777;
     color: #555;
     flex: 0 0 auto;
-    margin-top: .15rem;
+    margin-top: 2px;
 }
 
 .release-title {
-    font-size: 1.05rem;
+    font-size: 17px;
     line-height: 1.5;
     font-weight: 700;
 }
@@ -227,9 +227,9 @@ img {
     padding: 6px 12px;
     border: 1px solid #e2e2e2;
     border-radius: 999px;
-    background: #fff;
+    background: white;
     color: #333;
-    font-size: .9rem;
+    font-size: 14px;
 }
 
 .promo-card {
@@ -250,7 +250,7 @@ img {
 }
 
 .promo-body {
-    padding: 2rem;
+    padding: 32px;
     min-height: 210px;
 }
 
@@ -262,8 +262,8 @@ img {
 }
 
 .promo-icon {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 29px;
+    height: 29px;
     border: 1px solid rgba(255, 255, 255, .8);
     flex: 0 0 auto;
 }
@@ -271,8 +271,9 @@ img {
 .footer {
     background-color: #3c3c3c;
 }
+
 .footer-link {
-    font-size: .95rem;
+    font-size: 15px;
     line-height: 1.2;
 }
 
@@ -281,13 +282,13 @@ img {
 }
 
 .footer-social {
-    width: 3.25rem;
-    height: 3.25rem;
-    font-size: 1.25rem;
+    width: 52px;
+    height: 52px;
+    font-size: 20px;
     transition: transform .2s ease, background-color .2s ease;
 }
 
 .footer-social:hover {
     transform: translateY(-2px);
-    background-color: #f2f2f2 !important;
+    background-color: white !important;
 }
